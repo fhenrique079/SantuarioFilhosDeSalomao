@@ -471,6 +471,9 @@ footer > section{
         left:19.7%;
         width: 60vw;
     }
+    #texto > p{
+        font-size: 1.4rem;
+    }
     #texto > p > strong{
         justify-content: center;
         text-align: center;
@@ -584,5 +587,4 @@ footer > section{
     #mensagemForm{
         margin-right: 0.9vw;
     }
-
 }
