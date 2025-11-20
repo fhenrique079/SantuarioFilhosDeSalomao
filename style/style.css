@@ -174,7 +174,7 @@ main{
         margin-left: 30%;
     }
     .tela h1{
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     .tela img{
         max-width: 70%;
@@ -337,7 +337,6 @@ footer > section{
 
 .tela h1 {
     text-align: center;
-    font-size: 2rem;
     margin: 0px;
     margin-bottom: 0.2vw;
 }
@@ -394,6 +393,9 @@ footer > section{
         height: 40%;
         margin-bottom: 1.5rem;
         border-radius: 3%;
+    }
+    .tela h1{
+        font-size: 2rem;
     }
     #none{
         display: flex;
