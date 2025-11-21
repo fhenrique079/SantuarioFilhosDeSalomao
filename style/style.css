@@ -636,20 +636,12 @@ footer > section{
     }
 }
 @media (min-width: 1900px) {
-    #book {
-        width: 100%;
-    }
-
     #book > a {
         margin: 0vw;
         width: 18vw;
         height: 35vh;
     }
-
-    .tela {
-        width: 50vw;
-        left: 25%;
-    }
 }
+
 
 
