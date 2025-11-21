@@ -637,19 +637,13 @@ footer > section{
 }
 @media (min-width: 1900px) {
     #book {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
         width: 100%;
-        padding-bottom: 3rem;
     }
 
     #book > a {
-        position: relative;
-        width: 22vw;    
-        height: 32vh;   
-        margin: 0;
+        margin: 0vw;
+        width: 18vw;
+        height: 35vh;
     }
 
     .tela {
@@ -657,4 +651,5 @@ footer > section{
         left: 25%;
     }
 }
+
 
