@@ -637,11 +637,15 @@ footer > section{
 }
 @media (min-width: 1900px) {
     #book > a {
-        margin: 0vw;
-        width: 18vw;
-        height: 35vh;
+        margin: 1vw;
+        width: 11vw;
+        height: 30vh;
+    }
+    #fotos {
+        height: 600px;
     }
 }
+
 
 
 
