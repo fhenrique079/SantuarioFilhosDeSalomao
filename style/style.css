@@ -641,18 +641,94 @@ footer > section{
 
 @media (min-width: 1900px) {
     #book {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        height: auto; 
     }
 
     #book > a {
         width: 13vw;
         max-height: 32vh;
     }
-
+/*
     #fotos {
         height: auto;
+    }*/
+}
+    
+@media (min-width: 2500px) {
+    #book {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        height: auto; 
+    }
+
+    #book > a {
+        width: 10vw;     
+        height: 22vh;    
+        min-width: 260px;
+        min-height: 200px;
+    }
+
+    #book > a > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px;
+    }
+
+   
+    #fotos .sech1 {
+        font-size: 4rem;
+    }
+
+   
+    #fotos .traço {
+        height: 6px;
+        width: 25%;
+    }
+    #fotos .sombra img {
+        height: 45px;
+    }
+
+    .tela {
+        width: 40vw;
+        left: 30%;
+        top: 6rem;
+        height: 80vh;
+    }
+
+    .tela img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .tela h1 {
+        font-size: 3rem;
+    }
+
+    .tela p {
+        font-size: 1.6rem;
+        line-height: 1.7;
+    }
+
+    .tela button {
+        font-size: 1.4rem;
+        width: 7rem;
+        height: 3rem;
     }
 }
+
 
 
 
