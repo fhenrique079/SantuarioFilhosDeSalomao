@@ -643,6 +643,20 @@ footer > section{
         margin: 3% 5% 0% 20%;
     }
     #nomeForm{
+        margin-right: 1.1%;
+    }
+    #emailForm{
+        margin-right: 1%;
+    }
+    #celularForm{
+        margin-right: -0.9%;
+    }
+}
+@media (min-width: 2560px){
+    form{
+        margin: 3% 5% 0% 20%;
+    }
+    #nomeForm{
         margin-right: -1.9%;
     }
     #emailForm{
