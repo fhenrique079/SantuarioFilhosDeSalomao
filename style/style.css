@@ -651,6 +651,22 @@ footer > section{
     #celularForm{
         margin-right: -0.9%;
     }
+    header{
+        height: 74vh;
+        padding-top: 13%;
+    }
+    #book {
+        height: 74vh;
+    }
+    #contato{
+        height: 94vh;
+    }
+    #contato > form{
+        margin-top: 10%;
+    }
+    #contato > form > p{
+        margin-bottom: 2%;
+    }
 }
 @media (min-width: 2560px){
     form{
